@@ -44,7 +44,7 @@ python -m pip install -r requirements.txt
 
 3. Launch the application
 bash
-python -m streamlit run sorting_lab_v2.py
+python -m streamlit run sorting_lab_v3.py
 
 
 Streamlit will provide a local URL, usually:
@@ -58,8 +58,6 @@ Open that URL in your browser to start exploring Sorting Lab.
 🧮 Algorithms Included
 Algorithm	Best Case	Average Case	Worst Case	Extra Space	Stable
 🫧 Bubble Sort	O(n)	O(n²)	O(n²)	O(1)	Yes
-🎯 Selection Sort	O(n²)	O(n²)	O(n²)	O(1)	No
-🃏 Insertion Sort	O(n)	O(n²)	O(n²)	O(1)	Yes
 🔀 Merge Sort	O(n log n)	O(n log n)	O(n log n)	O(n)	Yes
 ⚡ Quick Sort	O(n log n)	O(n log n)	O(n²)	O(log n)*	No
 
@@ -120,7 +118,7 @@ Learning tip: Try the same dataset with all five algorithms, then switch between
 📁 Project Structure
 text
 sorting-lab/
-├── sorting_lab_v2.py   # Main Streamlit application
+├── sorting_lab_v3.py   # Main Streamlit application
 ├── requirements.txt    # Python dependencies
 └── README.md           # Project documentation
 
